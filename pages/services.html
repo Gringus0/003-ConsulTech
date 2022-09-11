@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Aleksandar Jovanović"/>
+    <meta name="description" content="Potrebna Vam je tehnika? Imamo na raspolaganju sve što Vas zanima!"/>
+    <meta name="keywords" content="tehnika, tehnologija, kompjuter, ekran, bela tehnika, alati, periferije"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>  
+    <link rel="icon" type="image/png" href="../assets/img/logo.png"/>
+    <title>ConsulTech | Usluge</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">ConsulTech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Početna</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="services.html">Usluge</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">O nama</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://nowed-moon.000webhostapp.com">O Autoru</a>
+                  </li>    
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row" id="services-bg">
+          
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-center p-0">
+      <div class="text-light p-3 main-text bg-dark">
+          <h1 class="text-center" id="nestrucni">Usluge</h1>
+      </div>
+  </div>
+    <div class="py-1 card_container bg-light">
+      <div class="m-sm-3 m-2 card">
+        <div class="card-body shadow">
+          <h4 class="card-title">Niste stručni - 7% od sveukupne cene</h4>
+          <span class="badge bg-success p-2">Popularno</span>
+          <p>U današnjem dobu starije osobe jednostavno ne mogu ići u korak sa tehnologijom koliko se brzo razvija, ali to nije razlog da odustanu. Bilo da ste starija osoba ili neko koga tehnologija generalno ne zanime toliko ili nemate vremena da zaronite u more raznih proizvođača ili specifikacija tehnologije, mi ćemo Vam pomoći. Popunite veoma kratak formular i naši agenti će vas kontaktirati do kraja sledećeg dana!</p>
+            <!-- Offcanvas start -->
+          <div class="offcanvas offcanvas-start" id="formular1">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Formular</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <!-- Form start -->
+              <form action="/action_page.php">
+                <div class="form-floating mb-3 mt-3">
+                  
+                  <input type="text" class="form-control" id="ime" placeholder="Uneti ime" name="name"/>
+                  <label for="fname" class="form-label">Ime:</label>
+                </div>
+                <div class="form-floating mb-3 mt-3">
+                  
+                  <input type="text" class="form-control" id="prezime" placeholder="Uneti prezime" name="prezime"/>
+                  <label for="lname" class="form-label">Prezime:</label>
+                </div>
+                <div class="form-floating mb-3 mt-3">
+                  
+                  <input type="email" class="form-control" id="email" placeholder="Uneti email" name="email"/>
+                  <label for="email" class="form-label">Email:</label>
+                </div>
+                <div class="form-floating mb-3 mt-3">
+                  
+                  <input type="phone" class="form-control" id="telefon" placeholder="06x-xxxxxxx" name="telefon"/>
+                  <label for="phone" class="form-label">Telefon:</label>
+                </div>
+                <div class="form-floating mb-3 mt-3">
+                  
+                  <textarea class="form-control" rows="3" id="comment" name="text" placeholder="U par reči nam recite šta želite kupiti: "></textarea>
+                  <label for="comment">U par reči nam recite šta želite kupiti: </label>
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="agree"/> Zahtevam da moji podaci budu korišćeni isključivo radi kontakta iz navedenog razloga.
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Pošalji</button>
+              </form>
+              <!-- Form end -->
+            </div>
+          </div>
+            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#formular1" id="strucni">
+              Formular za nestručne
+            </button>
+        </div>
+              <!-- Offcanvas end -->
+      </div>
+          
+      <div class="m-sm-3 m-2 card">
+        <div class="card-body shadow">
+          <h4 class="card-title">Znate šta želite - 12% od sveukupne cene</h4>
+          <p>Znate tačne specifikacije nekog dela tehnologije, ali nemate vremena ili niste upoznati kako i gde pronaći datu stvar. Možete nam reći šta želite i mi ćemo Vas kontaktirati u roku od jednog radnog dana i, ukoliko dat produkt postoji kod nas ili na tržištu celog Balkana (možda i malo dalje), pronaći ćemo ga i besplatno dostaviti na Vašu adresu. Popunite formular i recite nam šta tačno želite u opisu produkta!</p>
+            <!-- Offcanvas start -->
+            <div class="offcanvas offcanvas-start" id="formular2">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Formular</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+              <div class="offcanvas-body">
+                <!-- Form start -->
+                <form action="/action_page.php">
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="text" class="form-control" id="ime" placeholder="Uneti ime" name="name"/>
+                    <label for="fname" class="form-label">Ime:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="text" class="form-control" id="prezime" placeholder="Uneti prezime" name="prezime"/>
+                    <label for="lname" class="form-label">Prezime:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="email" class="form-control" id="email" placeholder="Uneti email" name="email"/>
+                    <label for="email" class="form-label">Email:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="phone" class="form-control" id="telefon" placeholder="06x-xxxxxxx" name="telefon"/>
+                    <label for="phone" class="form-label">Telefon:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <textarea class="form-control" rows="3" id="comment" name="text" placeholder="Detaljno nam opišite šta želite kupiti: "></textarea>
+                    <label for="comment">Detaljno nam opišite šta želite kupiti: </label>
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="agree"/> Zahtevam da moji podaci budu korišćeni isključivo radi kontakta iz navedenog razloga.
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Pošalji</button>
+                </form>
+                <!-- Form end -->
+              </div>
+            </div>
+              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#formular2" id="stara_tehnika">
+                Formular za stručne
+              </button>
+          </div>
+                <!-- Offcanvas end -->
+        </div>
+      
+      <div class="m-sm-3 m-2 card">
+        <div class="card-body shadow">
+          <h4 class="card-title">Imate staru tehniku - Novčana vrednost vaučera je promenljiva</h4>
+          <p>Ukoliko imate stari frižider, zamrzivač, telefon, kompjuter, mikrotalasnu ili bilo šta slično, možete zameniti stari proizvod za poseban vaučer za naše usluge u novčanoj vrednosti koja zavisi od vrednosti produkta i u kom je stanju. Popunite formular i mi ćemo Vas kontaktirati kako bi se dogovorili kada naš stručni tim može doći na Vašu adresu i proceniti Vaš uređaj besplatno! </p>
+            <!-- Offcanvas start -->
+            <div class="offcanvas offcanvas-start" id="formular3">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Formular</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+              <div class="offcanvas-body">
+                <!-- Form start -->
+                <form action="/action_page.php">
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="text" class="form-control" id="ime" placeholder="Uneti ime" name="name"/>
+                    <label for="fname" class="form-label">Ime:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="text" class="form-control" id="prezime" placeholder="Uneti prezime" name="prezime"/>
+                    <label for="lname" class="form-label">Prezime:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="email" class="form-control" id="email" placeholder="Uneti email" name="email"/>
+                    <label for="email" class="form-label">Email:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="phone" class="form-control" id="telefon" placeholder="06x-xxxxxxx" name="telefon"/>
+                    <label for="phone" class="form-label">Telefon:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <textarea class="form-control" rows="3" id="comment" name="text" placeholder="Koju vrstu stare tehnike imate? "></textarea>
+                    <label for="comment">Koju vrstu stare tehnike imate? </label>
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="agree"/> Zahtevam da moji podaci budu korišćeni isključivo radi kontakta iz navedenog razloga.
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Pošalji</button>
+                </form>
+                <!-- Form end -->
+              </div>
+            </div>
+              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#formular3" id="polovno">
+                Formular za staru tehniku
+              </button>
+          </div>
+                <!-- Offcanvas end -->
+        </div>
+      
+      <div class="m-sm-3 m-2 card">
+        <div class="card-body shadow">
+          <h4 class="card-title">Želite polovnu robu - Od 1000 do 50000 dinara</h4>
+          <span class="badge bg-success p-2">Popularno</span>
+          <p>U današnje vreme mnogi ljudi zaboravljaju na frižidere koji su večno trajali i nadživeli cele porodice. Mi smo restaurirali staru tehniku i sada je možemo prodati Vama uz veliki popust. Ispunite Vaše podatke na formularu i kontaktiraćemo Vas prvom prilikom kako bi mogli da ugovorimo Vaš dolazak u jedan od naših velikih magacina širom zemlje.</p>
+            <!-- Offcanvas start -->
+            <div class="offcanvas offcanvas-start" id="formular4">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Formular</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+              <div class="offcanvas-body">
+                <!-- Form start -->
+                <form action="/action_page.php">
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="text" class="form-control" id="ime" placeholder="Uneti ime" name="name"/>
+                    <label for="fname" class="form-label">Ime:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="text" class="form-control" id="prezime" placeholder="Uneti prezime" name="prezime"/>
+                    <label for="lname" class="form-label">Prezime:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="email" class="form-control" id="email" placeholder="Uneti email" name="email"/>
+                    <label for="email" class="form-label">Email:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <input type="phone" class="form-control" id="telefon" placeholder="06x-xxxxxxx" name="telefon"/>
+                    <label for="phone" class="form-label">Telefon:</label>
+                  </div>
+                  <div class="form-floating mb-3 mt-3">
+                    
+                    <textarea class="form-control" rows="3" id="comment" name="text" placeholder="U par reči nam recite šta želite kupiti: "></textarea>
+                    <label for="comment">U par reči nam recite šta želite kupiti: </label>
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="agree"/> Zahtevam da moji podaci budu korišćeni isključivo radi kontakta iz navedenog razloga.
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Pošalji</button>
+                </form>
+                <!-- Form end -->
+              </div>
+            </div>
+              <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#formular4">
+                Formular za polovnu tehniku
+              </button>
+          </div>
+                <!-- Offcanvas end -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="row container-fluid bg-dark m-0">
+      <div class="col d-flex align-items-center">
+          <a href="#" class="text-bg-dark text-decoration-none">&copy ConsulTech</a>
+      </div>
+      <div class="col row p-2 text-center">
+          <a href="https://www.facebook.com/" target="_blank" class="link-light col-md-3 my-1 col-6"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://twitter.com/" target="_blank" class="link-light col-md-3 my-1 col-6"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" class="link-light col-md-3 my-1 col-6"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="../sitemap.xml" target="_blank" class="link-light col-md-3 my-1 col-6"><i class="fa-solid fa-sitemap"></i></a>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/5a986dcbf1.js" crossorigin="anonymous"></script>
+</body>
+</html>

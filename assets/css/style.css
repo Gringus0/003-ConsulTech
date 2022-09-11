@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+#main-bg {
+    background-image: url(../img/main_home.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+@media screen and (max-width: 450px) {
+    .zadovoljni_korisnici{
+        display: none;
+    }
+  }
+.card {
+    height: 100%;
+}
+.card_container {
+    margin-bottom: 2rem;
+}
+#slajdovi {
+    width: 65%;   
+}
+#services-bg {
+    background-image: url(../img/main_services.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+.btn:hover {
+    background-color: whitesmoke;
+    color: #212529 !important;
+}
+.zadovoljni_korisnici {
+    background-image: linear-gradient(#f8f9fa,#6c757d);
+}
+.serv {
+    background-image: linear-gradient(#6c757d,#f8f9fa);
+}
+.about-us-img {
+    background-image: url(../img/consulting.jpg);
+    height: 40vh;
+    background-size: cover;
+    border-radius: 10%;
+}
+.who h1 {
+    margin-top: 90px !important;
+}
+.who, .contact {
+    background-image: linear-gradient(#919191,#6c757d);
+}
+.locations {
+    background-image: linear-gradient(#6c757d,#919191);
+}
+.aboutus .row {
+    --bs-gutter-x: 0 !important;
+}
